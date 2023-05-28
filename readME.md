@@ -6,7 +6,8 @@ Hana Hrkalová
 ## Přeložení a spuštění programu
 Řešení se skládá pouze z jednoho test.py python souboru
 
-Spustíme projekt demo-5 pomocí příkazu vagrant up
+Spustíme projekt demo-5 pomocí příkazu vagrant up 
+Nechala jsem přidání python souboru na uživateli, aby bylo použití programu variabilní a uživatel si mohl zadat z příkazové řádky, na kterém uzlu chce aby daný proces běžel. (Mohly by být příkazy "na tvrdo přidány do vagrant file)
 Následně se připojíme na libovolné klienty v demu, pomocí příkazu
 
      docker exec -it client-1 bash
